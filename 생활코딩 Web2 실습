@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>❤️우리들의 기록❤️</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/jpg" href="bbung.jpg"/>
+    </head>
+    
+    <body>
+        <input id="night_day" type="button" value="night" onclick="
+        if(document.querySelector('#night_day').value ==='night'){
+            document.querySelector('body').style.backgroundColor='black';
+            document.querySelector('body').style.color='white';
+            document.querySelector('#night_day').value ='day';
+        } else{
+            document.querySelector('body').style.backgroundColor='white';
+            document.querySelector('body').style.color='black';
+            document.querySelector('#night_day').value ='night';
+        }
+        ">
+        <ol>
+        <h3>2022.10.11~</h3>
+            <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5speicification">HTML</a></li>
+            <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">CSS</a></li>
+
+        </ol>
+        <ul>
+            <li>1. 뭘</li>
+            <li>2. 할까</li>
+            <li>3. 고민중</li> 
+        </ul>
+        <h1>예지❤️성열</h1>
+        <h3>2022.10.11~</h3>
+        <p>
+        <h2><strong>신예지</strong></h2>
+        <h4>birth: 2001.10.29</h4>
+        
+        </p><p style="margin-top:30px;">
+        <h2>박성열</h2>
+        <h4>birth: 2002.04.14</h4>
+        <img src="web1.jpg" width="100%"></p>
+    </body>    
+</html>
